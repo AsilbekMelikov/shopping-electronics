@@ -1,0 +1,41 @@
+
+
+.card img {
+    height: 235px;
+    object-fit: contain;
+}
+.card-body img {
+    width: 24px;
+    height: 24px;
+}
+.favourite-icon {
+    border-radius: 5px;
+    border: 1px solid #E3E8EE;
+    cursor: pointer;
+}
+.favourite-icon i {
+    font-size: 18px;
+}
+.favourite-icon i.disliked{
+    color: #D4CDC5;
+    transition: all .3s ease-in-out;
+}
+.favourite-icon i.liked{
+    color: red;
+}
+.stars i {
+    margin-right: 3px;
+    color: #D4CDC5;
+    cursor: pointer;
+}
+.stars button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.stars i.star-filled {
+    color: #FF9017;
+}
+.start i.star-unfilled {
+    color: #D4CDC5;
+}

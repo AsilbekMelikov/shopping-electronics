@@ -1,0 +1,38 @@
+
+.orders {
+    border: 1px solid #E3E8EE;
+    border-radius: 7px;
+}
+.orders img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+.orders_img {
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+}
+.orders_buttons button {
+    font-weight: 600;
+}
+.orders_quantity {
+    border: 1px solid #E3E8EE;
+    border-radius: 5px;
+}
+.orders_quantity i {
+    font-size: 20px;
+    cursor: pointer;
+}
+.orders_quantity-plus {
+    width: 20px;
+    height: 20px;
+    transition: all .4s ease-in-out;
+}
+.orders_quantity-plus:hover {
+    background-color: #E0E0E0;
+}
+.row>* {
+    padding-left: 0;
+}
+

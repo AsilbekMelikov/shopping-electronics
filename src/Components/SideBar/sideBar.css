@@ -1,0 +1,46 @@
+
+.side-bar {
+    padding-top: 30px;
+    width: 240px;
+    min-height: 100px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.accordion {
+    --bs-accordion-border-width: 0;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-item {
+    background-color: #E3E8EE;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #E3E8EE;
+    color: #000;
+}
+.accordion-button {
+    padding: 5px 0;
+    background-color:#E3E8EE ;
+}
+.accordion-body {
+    padding: 5px 0;
+}
+.accordion-body p {
+    font-size: 16px;
+}
+.form-check-input {
+    border: 2px solid #BDBDBD;
+    cursor: pointer;
+}
+.model-feature {
+    overflow: auto;
+    display: flex;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.model-feature_buttons button:last-child {
+    width: 135px;
+}

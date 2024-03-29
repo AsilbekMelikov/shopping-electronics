@@ -1,0 +1,24 @@
+
+footer {
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.social-icon {
+    cursor: pointer;
+}
+.app {
+    width: 128px;
+    height: 42px;
+}
+.app_text {
+    padding-left: 5px;
+}
+.app_text span:first-child{
+    font-size: 10px;
+    height: 10px;
+}
+.app_text span:last-child {
+    font-size: 15px;
+}
